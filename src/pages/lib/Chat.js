@@ -11,7 +11,7 @@ function Chat() {
   const [message, setMessage] = useState("");
   const soulMessagesEndRef = useRef(null);
 
-  const handleSendMessage = (event) => {
+  const handleSendMessage = async (event) => {
     event.preventDefault();
     tellSoul(message);
     if (message.trim() !== "") {
