@@ -1,10 +1,11 @@
 // Chat.js
 import React, { useState, useEffect, useRef } from "react";
-import { useSoul, Blueprints } from "socialagi";
-
+import { useSoul } from "socialagi";
+import { Blueprints } from "./myPrints/blueprint";
 function Chat() {
+  
   const { tellSoul, messages, soulThoughts } = useSoul({
-    blueprint: Blueprints.SAMANTHA,
+    blueprint: Blueprints.STEFAN,
   });
 
   const [message, setMessage] = useState("");
