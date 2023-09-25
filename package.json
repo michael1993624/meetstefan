@@ -6,7 +6,9 @@
   },
   "description": "Example socialagi integration into a website, showcasing Samantha",
   "scripts": {
-    "start": "next dev",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "author": "SocialAGI",
