@@ -2,11 +2,9 @@
   "name": "socialagi-example",
   "version": "0.0.1",
   "description": "Example socialagi integration into a website, showcasing Samantha",
-
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next dev"
+    "dev": "next dev",
+    "lint": "next lint"
   },
   "author": "SocialAGI",
   "license": "ISC",
